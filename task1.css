@@ -1,0 +1,211 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color:rgb(243, 238, 238);
+}
+.left{
+   
+    display: inline-block;
+    width: 50vw;
+    box-sizing: border-box;
+    height: 100vh;
+
+}
+.left{
+    position: relative;
+    width: 300px;
+    height: 400px;
+    margin-left: 250px;
+
+}
+.left .img{
+    position: absolute;
+    width: 200px;
+    height: 300px;
+    border-radius: 18px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    transition: transform 0.3s;
+
+}
+.img-back{
+    top:25px;
+    left:20px;
+    z-index:1;
+    transform: rotate(-8deg);
+}
+.img-middle{
+    top:10px;
+    left:60px;
+    z-index:2;
+    transform: rotate(0deg);
+}
+.img-front{
+    top:0px;
+    left:100px;
+    z-index:3;
+    transform: rotate(8deg);
+}
+
+
+.right{
+    
+    display: inline-block;
+    width: 48vw;
+    height: 100vh;
+    margin-left: 200px;
+    
+}
+.right .box{
+    width: 25vw;
+    height: 50vh;
+    background-color: aliceblue;
+    position: fixed;
+    top: 20vh;
+    right: 16vw;
+    border-radius: 5px;
+    text-align: center;
+
+}
+ * {
+      box-sizing: border-box;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    body {
+      background-color: #fafafa;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    .login-container {
+      position:center;
+      margin-top: 100px;
+      background-color: #fff;
+      border: 1px solid #dbdbdb;
+      width: 350px;
+      text-align: center;
+      padding: 40px;
+      border-radius: 5px;
+      
+      
+    }
+
+    .login-container img {
+      width: 180px;
+      margin-bottom: 25px;
+    }
+
+    .login-container input {
+      width: 100%;
+      margin-bottom: 8px;
+      padding: 9px;
+      border: 1px solid #dbdbdb;
+      border-radius: 3px;
+      background-color: #fafafa;
+      font-size: 12px;
+    }
+
+    .login-container button {
+      width: 100%;
+      background-color: #0095f6;
+      color: white;
+      font-weight: 600;
+      border: none;
+      padding: 8px;
+      border-radius: 5px;
+      cursor: pointer;
+      margin-top: 8px;
+    }
+
+    .login-container button:hover {
+      background-color: #1877f2;
+    }
+
+    .or {
+      display: flex;
+      align-items: center;
+      text-align: center;
+      margin: 15px 0;
+      color: #8e8e8e;
+      font-size: 13px;
+    }
+
+    .or::before, .or::after {
+      content: "";
+      flex: 1;
+      border-bottom: 1px solid #dbdbdb;
+    }
+
+    .or:not(:empty)::before {
+      margin-right: .75em;
+    }
+
+    .or:not(:empty)::after {
+      margin-left: .75em;
+    }
+
+    .facebook-login {
+      color: #385185;
+      font-weight: 600;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+    }
+
+    .facebook-login img {
+      margin-top: 30px;
+      width: 19px;
+      margin-right: 8px;
+    }
+
+    .forgot-password {
+      font-size: 12px;
+      color: #00376b;
+      margin-top: 15px;
+      cursor: pointer;
+    }
+
+    .signup {
+      margin-top: 15px;
+      border: 1px solid #dbdbdb;
+      padding: 15px;
+      font-size: 14px;
+      background: #fff;
+      text-align: center;
+      width: 350px;
+    }
+
+    .signup a {
+      text-decoration: none;
+      color: #0095f6;
+      font-weight: 600;
+    }
+    .logo {
+      width: 10px;
+      text-align: center;
+      font-family:cursive;
+      font-style: italic;
+      font-size:30px;
+      color:#111;
+      letter-spacing:1px;
+      line-height:1;
+      margin: 0 0 20px;
+      display:block;
+      margin-left: 49px;
+    }
+    
+
+    @media (max-width: 450px) {
+      .login-container {
+        border: none;
+        width: 100%;
+        background-color: transparent;
+      }
+    }
+
